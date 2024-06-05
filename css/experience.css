@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'neuemachinaregular';
+    src: url('font/neuemachina/neuemachinaregular.otf');
+}
+
+body {
+    background: linear-gradient(90deg, rgba(7, 13, 41, 1) 81%, rgba(91, 148, 50, 1) 94%, rgba(18, 225, 185, 1) 100%);
+    overflow-x: hidden;
+    font-family: 'neuemachinaregular', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family:'neuemachinaregular', sans-serif;
+}
+
+.navbar {
+    background-color: auto;
+    font-family: 'neuemachinaregular', sans-serif;
+    text-align: center; /* Center align the content */
+    width: 100%; /* Occupy full width */
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 45px;
+    display: inline-block; /* Display as inline block to center */
+    background-color: auto;
+}
+
+.navbar li {
+    display: inline; /* Display list items inline */
+    margin-right: 40px; /* Adjusted spacing between menu items */
+}
+
+.navbar li:last-child {
+    margin-right: 0;
+}
+
+.navbar a {
+    color: #12E1B9;
+    text-decoration: none;
+    padding: 7px 45px;
+    border: 2px solid #12E1B9;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: auto;
+}
+
+.navbar a:hover {
+    background-color: #5b9432;
+    color: #fff; /* Changed font color on hover for better contrast */
+}
+
+main {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.main-title,
+.internship-heading {
+    font-family: 'neuemachinaregular', sans-serif;
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.experience-section {
+    margin: 20px 0;
+}
+
+.experience-item,
+.internship-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.experience-item img,
+.internship-details img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.experience-details,
+.internship-details {
+    max-width: 500px;
+    text-align: center;
+}
+
+.experience-title,
+.internship-title {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 5px; /* Reduced margin to bring the period text closer */
+    width: 100%;
+}
+
+.experience-period,
+.internship-period {
+    font-size: 20px;
+    color: #12E1B9;
+    margin-top: 5px; /* Reduced margin to bring the period text closer */
+    width: 100%;
+}
+
+.spacer {
+    width: 80px; /* Adjust the width of the spacer as needed */
+}
+
+footer {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    color: #12E1B9;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: 'neuemachinaregular', sans-serif;
+    text-align: center;
+    padding: 12px;
+    background: black;
+}

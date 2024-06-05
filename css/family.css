@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'neuemachinaregular';
+    src: url('font/neuemachina/neuemachinaregular.otf');
+}
+
+body {
+    background: linear-gradient(90deg, rgba(7, 13, 41, 1) 81%, rgba(91, 148, 50, 1) 94%, rgba(18, 225, 185, 1) 100%);
+    overflow-x: hidden;
+    font-family: 'neuemachinaregular', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    font-family: 'neuemachinaregular', sans-serif;
+}
+
+.navbar {
+    text-align: center;
+    width: 100%;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 45px;
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 40px;
+}
+
+.navbar li:last-child {
+    margin-right: 0;
+}
+
+.navbar a {
+    color: #12E1B9;
+    text-decoration: none;
+    padding: 7px 45px;
+    border: 2px solid #12E1B9;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #5b9432;
+    color: #fff;
+}
+
+main {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.family-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.family-item {
+    margin: 20px;
+}
+
+.family-item img {
+    border-radius: 20px;
+    max-width: 800px;
+}
+
+/* New family member section */
+.family-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.family-member {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.family-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.member-info {
+    text-align: center;
+}
+
+.member-info h2 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+}
+
+.member-info p {
+    font-size: 14px;
+    margin: 0;
+}
+
+footer {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    color: #12E1B9;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: 'neuemachinaregular', sans-serif;
+    text-align: center;
+    padding: 12px;
+    background: black;
+}

@@ -1,0 +1,275 @@
+@font-face {
+    font-family: 'neuemachinaregular';
+    src: url('font/neuemachina/neuemachinaregular.otf');
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(7, 13, 41, 1) 81%, rgba(91, 148, 50, 1) 94%, rgba(18, 225, 185, 1) 100%);
+    overflow-x: hidden;
+    font-family: 'neuemachinaregular', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Aligns items at the top */
+}
+
+nav {
+    background: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family:'neuemachinaregular', sans-serif;
+}
+
+.navbar {
+    background-color: auto;
+    font-family: 'neuemachinaregular', sans-serif;
+    text-align: center; /* Center align the content */
+    width: 100%; /* Occupy full width */
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 45px;
+    display: inline-block; /* Display as inline block to center */
+    background-color: auto;
+}
+
+.navbar li {
+    display: inline; /* Display list items inline */
+    margin-right: 40px; /* Adjusted spacing between menu items */
+}
+
+.navbar li:last-child {
+    margin-right: 0;
+}
+
+.navbar a {
+    color: #12E1B9;
+    text-decoration: none;
+    padding: 7px 45px;
+    border: 2px solid #12E1B9;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: auto;
+}
+
+.navbar a:hover {
+    background-color: #5b9432;
+    color: #fff; /* Changed font color on hover for better contrast */
+}
+
+.faries4 {
+    position: absolute;
+    left: 150px;
+    top: 150px;
+    width: 408px;
+    height: 554px;
+    overflow: hidden;
+    background: black;
+    border-radius: 15px;
+}
+
+.faries4src {
+    width: 100%;
+    height: 100%;
+}
+
+.aboutme {
+    color: #fff;
+    font-family: 'neuemachinaregular', sans-serif;
+    font-size: 36pt;  
+}
+
+.aboutmep {
+    position: absolute;
+    left: 650px;
+    top: 200px;
+}
+
+.aboutmetextposition {
+    position: absolute;
+    left: 650px;
+    top: 300px;
+    width: 48%;
+    text-align: justify;
+    line-height: 2.0;
+}
+
+.aboutmetext1 {
+    font-family: 'neuemachinaregular', sans-serif;
+    font-size: 20px;
+    color: #12E1B9;
+}
+.downloadresume {
+    position: relative;
+    left: 800px;
+    top: 490px;
+    width: 50%;
+}
+.downloadresume a {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 18px;
+    background-color: transparent;
+    color: #12E1B9;
+    border: 1px solid #12E1B9;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+    transition: 0.4s;
+    text-decoration: none; /* Remove default underline */
+}
+
+.downloadresume a:hover {
+    background-color: #2e2e2e;
+    color: dodgerblue;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    border: 1px solid dodgerblue;
+}
+.shapedivider {
+    width: 100%;
+    position: absolute;
+    padding: 80px;
+    top: 800px;
+    left: 0px;
+    background: black;
+
+}
+.table-personalinformation {
+    position: relative;
+    top: 545px; /* Adjust the position as needed */
+    left: 460px;
+    margin: 0 auto; /* Center the table horizontally */
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 140%;
+    height: auto; /* Adjust the width as needed */
+    font-family: 'neuemachinaregular', sans-serif; /* Add font family */
+    font-size: 14px; /* Adjust font size */
+    border: 1px solid #12E1B9;
+    border-radius: 10px; /* Rounder corners */
+    overflow: hidden; /* Ensure rounded corners are visible */
+}
+
+.table-personalinformation td {
+    padding: 10px; /* Padding */
+    text-align: left; /* Text alignment */
+}
+
+.table-personalinformation .label {
+    color: #12E1B9; /* Green color */
+}
+
+.table-personalinformation .value {
+    color: #fff; /* White color */
+}
+
+.table-personalinformation .row-dark {
+    background-color: transparent; /* Darker row color */
+}
+
+.table-personalinformation .row-light {
+    background-color: transparent; /* Lighter row color */
+}
+.table-personalinformation tr:hover {
+    background-color: black;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+.table-personalinformation tr:hover .label {
+    color: dodgerblue;
+}
+
+.table-personalinformation tr:hover .value {
+    color: dodgerblue;
+}
+
+.table-personalinformation th {
+    border-radius: 15px;
+    background-color: black;
+}
+
+.table-personalinformation th:hover {
+    background-color: black;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+.table-hobbies {
+    position: relative;
+    top: 1000px; /* Moves the table 1100px down */
+    left: -360px;
+    margin: 0 auto; /* Center the table horizontally */
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 200%; /* Adjust the width as needed */
+    font-family: 'neuemachinaregular', sans-serif; /* Add font family */
+    font-size: 12px;
+    table-layout: fixed; /* Ensures fixed table layout */
+    border: 1px solid #12E1B9; /* Add border to the table for a rounded border */
+    border-radius: 10px; /* Rounded corners for the table */
+    overflow: visible; /* Ensure rounded corners work on overflow */
+}
+
+.table-hobbies th, .table-hobbies td {
+    border: 1px solid #12E1B9; /* Border color */
+    color: #fff; /* Text color */
+    padding: 10px; /* Padding */
+    text-align: center; /* Text alignment */
+    vertical-align: top; /* Align content to the top */
+}
+
+.table-hobbies th {
+    background-color: black; /* Header background color */
+}
+
+.table-hobbies td {
+    background-color: transparent; /* Cell background color */
+}
+
+.hobby-image {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.table-hobbies td.image-cell {
+    width: 33.33%; /* Ensures each image cell takes up equal width */
+}
+
+.first-and-third-text-style th {
+    font-family: 'neuemachinaregular', sans-serif;
+    font-size: 18px;
+    height: 50px; /* Adjust the height as needed */
+    vertical-align: middle; /* Center the text vertically */
+    color: #12E1B9;
+}
+
+.fourth-row td {
+    text-align: justify; /* Justify the text */
+    text-align-last: left; /* Center the last line */
+    vertical-align: top; /* Align the content to the top */
+    padding: 15px; /* Additional padding for better spacing */
+    font-family: 'neuemachinaregular', sans-serif; /* Add font family */
+    font-size: 16px;
+    line-height: 2.0;
+}
+
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: -1100px; /* Adjusted common property */
+    color: #12E1B9;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: 'neuemachinaregular', sans-serif;
+    text-align: center;
+    padding: 12px;
+    left: -20px;
+    background: black;
+}

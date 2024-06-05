@@ -1,0 +1,190 @@
+@font-face {
+    font-family: 'neuemachinaregular';
+    src: url('font/neuemachina/neuemachinaregular.otf');
+}
+
+body {
+    background: linear-gradient(90deg, rgba(7, 13, 41, 1) 81%, rgba(91, 148, 50, 1) 94%, rgba(18, 225, 185, 1) 100%);
+    overflow-x: hidden;
+    font-family: 'neuemachinaregular', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    font-family: 'neuemachinaregular', sans-serif;
+}
+
+.navbar {
+    text-align: center;
+    width: 100%;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 45px;
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 40px;
+}
+
+.navbar li:last-child {
+    margin-right: 0;
+}
+
+.navbar a {
+    color: #12E1B9;
+    text-decoration: none;
+    padding: 7px 45px;
+    border: 2px solid #12E1B9;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #5b9432;
+    color: #fff;
+}
+
+.raya2024 {
+    position: absolute;
+    top: 110px;
+    left: 250px;
+}
+.raya2024 img {
+    width: 950px;
+    height: 550px;
+}
+
+.breakingfastwithschoolmate {
+    position: absolute;
+    top: 740px;
+    left: 250px;
+}
+.breakingfastwithschoolmate img {
+    width: 40%;
+    height: 40%;
+}
+
+.lastdayinternship {
+    position: absolute;
+    top: 710px;
+    left: 730px;
+}
+.lastdayinternship img {
+    width: 60%;
+    height: 60%;
+}
+
+.withheadunitmultmedia {
+    position: absolute;
+    top: 1110px;
+    left: 250px;
+}
+.withheadunitmultmedia img {
+    width: 20%;
+    height: 20%;
+}
+
+.phonographrecordplayer {
+    position: absolute;
+    top: 1100px;
+    left: 580px;
+}
+
+.sudirmansongonvinyl {
+    position: absolute;
+    top:  1100px;
+    left: 900px;
+}
+
+.vibingrayasongduringwork {
+    position: absolute;
+    top: 1750px;
+    left: 900px;
+}
+
+.outingwithsisandmom {
+    position: absolute;
+    top: 1750px;
+    left: 600px;
+}
+.outingwithsisandmom img {
+    width: 40%;
+    height: 35%;
+}
+
+.gymwithfriend {
+    position: absolute;
+    top: 1750px;
+    left: 250px;
+}
+.gymwithfriend img {
+    width: 40%;
+    height: 35%;
+}
+
+.lastdayschool {
+    position: absolute;
+    top: 2210px;
+    left: 250px;
+}
+.lastdayschool img {
+    width: 40%;
+    height: 35%;
+}
+
+.endofsemester3 {
+    position: absolute;
+    top: 2360px;
+    left: 650px;
+}
+.endofsemester3 img {
+    width: 50%;
+    height: 45%;
+}
+
+.endofsemester4 {
+    position: absolute;
+    top: 2660px;
+    left: 240px;
+}
+.endofsemester4 img {
+    width: 30%;
+    height: 25%;
+}
+.pantaimurnibeach {
+    position: absolute;
+    top: 2715px;
+    left: 750px;
+}
+.pantaimurnibeach img {
+    width: 25%;
+    height: 25%;
+}
+.qna-video {
+    position: relative;
+    left: 400px;
+    top: 3000px;
+}
+
+footer {
+    position: relative;
+    top: 3100px;
+    width: 100%;
+    background: black;
+    padding: 12px;
+    text-align: center;
+    color: #12E1B9;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: 'neuemachinaregular', sans-serif;
+}
